@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "title": "Regressão Linear",
+    "content": "Regressão linear é um modelo supervisionado usado para prever valores contínuos assumindo relação linear entre variáveis."
+  },
+  {
+    "id": 2,
+    "title": "Regressão Linear Simples",
+    "content": "Modelo de regressão que utiliza apenas uma variável independente para prever um valor contínuo."
+  },
+  {
+    "id": 3,
+    "title": "Regressão Linear Múltipla",
+    "content": "Extensão da regressão linear que utiliza múltiplas variáveis independentes."
+  },
+  {
+    "id": 4,
+    "title": "Regressão Polinomial",
+    "content": "Modelo que introduz termos polinomiais para capturar relações não lineares."
+  },
+  {
+    "id": 5,
+    "title": "Regressão Ridge",
+    "content": "Modelo de regressão linear com regularização L2 para reduzir overfitting."
+  },
+  {
+    "id": 6,
+    "title": "Regressão Lasso",
+    "content": "Modelo de regressão linear com regularização L1 que pode zerar coeficientes."
+  },
+  {
+    "id": 7,
+    "title": "Elastic Net",
+    "content": "Modelo que combina regularização L1 e L2 em regressão linear."
+  },
+  {
+    "id": 8,
+    "title": "Regressão Logística",
+    "content": "Modelo supervisionado usado para classificação binária baseado em função sigmoide."
+  },
+  {
+    "id": 9,
+    "title": "Regressão Logística Multiclasse",
+    "content": "Extensão da regressão logística para problemas com mais de duas classes."
+  },
+  {
+    "id": 10,
+    "title": "Árvore de Decisão",
+    "content": "Modelo baseado em regras que divide os dados em nós usando critérios de impureza."
+  },
+  {
+    "id": 11,
+    "title": "Árvore de Classificação",
+    "content": "Árvore de decisão usada especificamente para tarefas de classificação."
+  },
+  {
+    "id": 12,
+    "title": "Árvore de Regressão",
+    "content": "Árvore de decisão usada para prever valores contínuos."
+  },
+  {
+    "id": 13,
+    "title": "Random Forest",
+    "content": "Modelo ensemble que combina várias árvores de decisão treinadas com bagging."
+  },
+  {
+    "id": 14,
+    "title": "Extra Trees",
+    "content": "Variação do Random Forest que introduz mais aleatoriedade nas divisões."
+  },
+  {
+    "id": 15,
+    "title": "Bagging",
+    "content": "Técnica ensemble que treina múltiplos modelos em amostras aleatórias dos dados."
+  },
+  {
+    "id": 16,
+    "title": "Boosting",
+    "content": "Técnica ensemble que treina modelos sequencialmente corrigindo erros anteriores."
+  },
+  {
+    "id": 17,
+    "title": "AdaBoost",
+    "content": "Algoritmo de boosting que ajusta pesos das amostras mal classificadas."
+  },
+  {
+    "id": 18,
+    "title": "Gradient Boosting",
+    "content": "Técnica de boosting baseada na minimização do erro via gradiente."
+  },
+  {
+    "id": 19,
+    "title": "XGBoost",
+    "content": "Implementação otimizada de gradient boosting focada em desempenho."
+  },
+  {
+    "id": 20,
+    "title": "LightGBM",
+    "content": "Framework de gradient boosting otimizado para grandes volumes de dados."
+  },
+  {
+    "id": 21,
+    "title": "CatBoost",
+    "content": "Algoritmo de boosting otimizado para variáveis categóricas."
+  },
+  {
+    "id": 22,
+    "title": "K-Nearest Neighbors",
+    "content": "Algoritmo baseado em distância que classifica usando os vizinhos mais próximos."
+  },
+  {
+    "id": 23,
+    "title": "KNN Classificação",
+    "content": "Versão do KNN aplicada a problemas de classificação."
+  },
+  {
+    "id": 24,
+    "title": "KNN Regressão",
+    "content": "Versão do KNN aplicada a problemas de regressão."
+  },
+  {
+    "id": 25,
+    "title": "Support Vector Machine",
+    "content": "Modelo que encontra o hiperplano ótimo para separar classes."
+  },
+  {
+    "id": 26,
+    "title": "SVM Linear",
+    "content": "SVM que utiliza kernel linear para dados linearmente separáveis."
+  },
+  {
+    "id": 27,
+    "title": "SVM RBF",
+    "content": "SVM com kernel radial que captura relações não lineares."
+  },
+  {
+    "id": 28,
+    "title": "SVM Polinomial",
+    "content": "SVM que utiliza kernel polinomial para modelar padrões complexos."
+  },
+  {
+    "id": 29,
+    "title": "Naive Bayes",
+    "content": "Classificador probabilístico baseado no Teorema de Bayes."
+  },
+  {
+    "id": 30,
+    "title": "Gaussian Naive Bayes",
+    "content": "Versão do Naive Bayes que assume distribuição normal."
+  },
+  {
+    "id": 31,
+    "title": "Multinomial Naive Bayes",
+    "content": "Naive Bayes usado principalmente para dados discretos e texto."
+  },
+  {
+    "id": 32,
+    "title": "Bernoulli Naive Bayes",
+    "content": "Naive Bayes usado para dados binários."
+  },
+  {
+    "id": 33,
+    "title": "K-Means",
+    "content": "Algoritmo não supervisionado para agrupamento baseado em centróides."
+  },
+  {
+    "id": 34,
+    "title": "K-Medoids",
+    "content": "Variação do K-Means que utiliza pontos reais como centróides."
+  },
+  {
+    "id": 35,
+    "title": "DBSCAN",
+    "content": "Algoritmo de clusterização baseado em densidade."
+  },
+  {
+    "id": 36,
+    "title": "Hierarchical Clustering",
+    "content": "Algoritmo que cria uma hierarquia de clusters."
+  },
+  {
+    "id": 37,
+    "title": "Agglomerative Clustering",
+    "content": "Método hierárquico que une clusters progressivamente."
+  },
+  {
+    "id": 38,
+    "title": "Mean Shift",
+    "content": "Algoritmo de clusterização baseado na densidade dos dados."
+  },
+  {
+    "id": 39,
+    "title": "Gaussian Mixture Model",
+    "content": "Modelo probabilístico que assume mistura de distribuições gaussianas."
+  },
+  {
+    "id": 40,
+    "title": "PCA",
+    "content": "Técnica de redução de dimensionalidade baseada em variância."
+  },
+  {
+    "id": 41,
+    "title": "Kernel PCA",
+    "content": "Extensão do PCA para relações não lineares."
+  },
+  {
+    "id": 42,
+    "title": "LDA",
+    "content": "Técnica de redução de dimensionalidade supervisionada."
+  },
+  {
+    "id": 43,
+    "title": "ICA",
+    "content": "Técnica de separação de fontes independentes."
+  },
+  {
+    "id": 44,
+    "title": "Análise de Resíduos",
+    "content": "Método para avaliar erros de modelos de regressão."
+  },
+  {
+    "id": 45,
+    "title": "Validação Cruzada",
+    "content": "Técnica para avaliar modelos dividindo dados em múltiplos folds."
+  },
+  {
+    "id": 46,
+    "title": "Holdout",
+    "content": "Método simples de divisão entre treino e teste."
+  },
+  {
+    "id": 47,
+    "title": "Grid Search",
+    "content": "Técnica para busca exaustiva de hiperparâmetros."
+  },
+  {
+    "id": 48,
+    "title": "Random Search",
+    "content": "Busca de hiperparâmetros baseada em amostragem aleatória."
+  },
+  {
+    "id": 49,
+    "title": "Bias-Variance Tradeoff",
+    "content": "Conceito que descreve o equilíbrio entre viés e variância."
+  },
+  {
+    "id": 50,
+    "title": "Overfitting",
+    "content": "Quando o modelo aprende ruído em vez de padrões gerais."
+  },
+  {
+    "id": 51,
+    "title": "Underfitting",
+    "content": "Quando o modelo é simples demais para capturar padrões."
+  },
+  {
+    "id": 52,
+    "title": "Feature Scaling",
+    "content": "Processo de normalização ou padronização das variáveis."
+  },
+  {
+    "id": 53,
+    "title": "StandardScaler",
+    "content": "Padroniza dados para média zero e variância unitária."
+  },
+  {
+    "id": 54,
+    "title": "MinMaxScaler",
+    "content": "Escala dados para um intervalo fixo."
+  },
+  {
+    "id": 55,
+    "title": "Encoding Categórico",
+    "content": "Processo de transformar variáveis categóricas em numéricas."
+  },
+  {
+    "id": 56,
+    "title": "One-Hot Encoding",
+    "content": "Representação binária para categorias."
+  },
+  {
+    "id": 57,
+    "title": "Label Encoding",
+    "content": "Transforma categorias em valores inteiros."
+  },
+  {
+    "id": 58,
+    "title": "Imputação de Dados",
+    "content": "Processo de tratar valores ausentes."
+  },
+  {
+    "id": 59,
+    "title": "Média Móvel",
+    "content": "Técnica estatística usada em séries temporais."
+  },
+  {
+    "id": 60,
+    "title": "Regressão de Poisson",
+    "content": "Modelo usado para prever contagens."
+  },
+  {
+    "id": 61,
+    "title": "Regressão Quantílica",
+    "content": "Modelo que estima quantis da variável resposta."
+  },
+  {
+    "id": 62,
+    "title": "Regressão Robust",
+    "content": "Modelo resistente a outliers."
+  },
+  {
+    "id": 63,
+    "title": "Outlier Detection",
+    "content": "Técnicas para identificar pontos fora do padrão."
+  },
+  {
+    "id": 64,
+    "title": "Isolation Forest",
+    "content": "Algoritmo para detecção de anomalias baseado em árvores."
+  },
+  {
+    "id": 65,
+    "title": "LOF",
+    "content": "Método de detecção de outliers baseado em densidade local."
+  },
+  {
+    "id": 66,
+    "title": "ROC Curve",
+    "content": "Curva usada para avaliar classificadores binários."
+  },
+  {
+    "id": 67,
+    "title": "AUC",
+    "content": "Área sob a curva ROC."
+  },
+  {
+    "id": 68,
+    "title": "Confusion Matrix",
+    "content": "Tabela que resume desempenho de classificação."
+  },
+  {
+    "id": 69,
+    "title": "Precision",
+    "content": "Métrica que mede a proporção de previsões positivas corretas."
+  },
+  {
+    "id": 70,
+    "title": "Recall",
+    "content": "Métrica que mede a capacidade de identificar positivos reais."
+  },
+  {
+    "id": 71,
+    "title": "F1-Score",
+    "content": "Média harmônica entre precisão e recall."
+  },
+  {
+    "id": 72,
+    "title": "Accuracy",
+    "content": "Proporção de previsões corretas."
+  },
+  {
+    "id": 73,
+    "title": "RMSE",
+    "content": "Erro quadrático médio da raiz."
+  },
+  {
+    "id": 74,
+    "title": "MAE",
+    "content": "Erro absoluto médio."
+  },
+  {
+    "id": 75,
+    "title": "R²",
+    "content": "Métrica que mede variância explicada."
+  },
+  {
+    "id": 76,
+    "title": "Log Loss",
+    "content": "Função de perda usada em classificação probabilística."
+  },
+  {
+    "id": 77,
+    "title": "Early Stopping",
+    "content": "Técnica para interromper treino e evitar overfitting."
+  },
+  {
+    "id": 78,
+    "title": "Learning Curve",
+    "content": "Gráfico que mostra desempenho conforme tamanho do treino."
+  },
+  {
+    "id": 79,
+    "title": "Feature Selection",
+    "content": "Processo de selecionar variáveis mais relevantes."
+  },
+  {
+    "id": 80,
+    "title": "Forward Selection",
+    "content": "Seleciona features de forma incremental."
+  },
+  {
+    "id": 81,
+    "title": "Backward Elimination",
+    "content": "Remove features menos relevantes progressivamente."
+  },
+  {
+    "id": 82,
+    "title": "Recursive Feature Elimination",
+    "content": "Seleciona features removendo recursivamente as menos importantes."
+  },
+  {
+    "id": 83,
+    "title": "Dimensionalidade",
+    "content": "Número de variáveis em um conjunto de dados."
+  },
+  {
+    "id": 84,
+    "title": "Curse of Dimensionality",
+    "content": "Problema causado pelo aumento excessivo de dimensões."
+  },
+  {
+    "id": 85,
+    "title": "Probabilidade Condicional",
+    "content": "Probabilidade de um evento dado outro evento."
+  },
+  {
+    "id": 86,
+    "title": "Distribuição Normal",
+    "content": "Distribuição estatística em forma de sino."
+  },
+  {
+    "id": 87,
+    "title": "Distribuição Binomial",
+    "content": "Distribuição para eventos binários."
+  },
+  {
+    "id": 88,
+    "title": "Distribuição Poisson",
+    "content": "Distribuição para eventos raros."
+  },
+  {
+    "id": 89,
+    "title": "Likelihood",
+    "content": "Probabilidade dos dados dado um modelo."
+  },
+  {
+    "id": 90,
+    "title": "Maximum Likelihood Estimation",
+    "content": "Método para estimar parâmetros maximizando a verossimilhança."
+  },
+  {
+    "id": 91,
+    "title": "MAP",
+    "content": "Estimativa bayesiana que incorpora prior."
+  },
+  {
+    "id": 92,
+    "title": "Bayesian Inference",
+    "content": "Processo de atualização de crenças usando probabilidade."
+  },
+  {
+    "id": 93,
+    "title": "Prior",
+    "content": "Conhecimento prévio em modelos bayesianos."
+  },
+  {
+    "id": 94,
+    "title": "Posterior",
+    "content": "Distribuição atualizada após observar dados."
+  },
+  {
+    "id": 95,
+    "title": "Likelihood Function",
+    "content": "Função que mede ajuste do modelo aos dados."
+  },
+  {
+    "id": 96,
+    "title": "Baseline Model",
+    "content": "Modelo simples usado como referência."
+  },
+  {
+    "id": 97,
+    "title": "Dummy Classifier",
+    "content": "Classificador simples baseado em heurísticas."
+  },
+  {
+    "id": 98,
+    "title": "Dummy Regressor",
+    "content": "Regressor simples usado como baseline."
+  },
+  {
+    "id": 99,
+    "title": "Pipeline",
+    "content": "Sequência estruturada de pré-processamento e modelagem."
+  },
+  {
+    "id": 100,
+    "title": "Reprodutibilidade",
+    "content": "Capacidade de reproduzir resultados com os mesmos dados e parâmetros."
+  }
+]
